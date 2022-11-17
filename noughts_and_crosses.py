@@ -25,7 +25,12 @@ def get_next_character():
         next_player = 1
     else:
         print("Prob in get_next_character")
-    return next_player
-#test function
+    return players[next_player]
+
+
+'''
+#test get_next_character
 for i in range(9):
-    print(get_next_character())
+    print(get_next_character())'''
+
+
