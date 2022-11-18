@@ -4,13 +4,7 @@ grid = [[' ',' ',' '],
 players = ['O', 'X']
 next_player = 0
 
-grid[0][0] = players[1]
-grid[2][2] = players[0]
-grid[2][0] = players[1]
-grid[1][0] = players[0]
-grid[0][2] = players[1]
-grid[0][1] = players[0]
-grid[1][1] = players[1]
+
 
 def get_next_character():
     """Returns the character for the next player"""
@@ -33,4 +27,4 @@ def get_next_character():
 for i in range(9):
     print(get_next_character())'''
 
-
+print(grid)
